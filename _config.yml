@@ -1,0 +1,16 @@
+# Site Settings
+title: Konrad Nowakowski | Résumé
+email: konrad.x92@gmail.com
+description: >-
+  My résumé website.
+baseurl: /resume
+github_username: lethiandev
+itch_username: lethiandev
+
+# Build Settings
+markdown: kramdown
+sass:
+  style: compressed
+exclude:
+  - Gemfile
+  - Gemfile.lock
