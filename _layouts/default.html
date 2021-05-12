@@ -13,8 +13,19 @@
   <!-- CDN END -->
 </head>
 <body>
-  <div class="paper">
-    {{ content }}
+  <div class="container">
+    <header class="header">
+      <span>Résumé</span>
+      <button type="button" class="button button-print">
+        <span class="material-icons">print</span>
+      </button>
+    </header>
+    <main class="main">
+      <div class="paper">
+        {{ content }}
+      </div>
+    </main>
   </div>
+  <script src="{{ '/assets/js/scripts.js' | relative_url }}"></script>
 </body>
 </html>

@@ -1,3 +1,40 @@
-@import "base";
-@import "mixins";
-@import "typography";
+@import 'base';
+@import 'mixins';
+@import 'typography';
+@import 'buttons';
+
+body {
+  background: #1e507b;
+  background: linear-gradient(to bottom right, #1e507b, #9a6ff2);
+}
+
+.container {
+  @media screen {
+    margin: 0 auto;
+    padding: 0 1rem;
+    max-width: 210mm;
+  }
+}
+
+.header {
+  padding: 20px 0 10px 0;
+  color: #fafafa;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  @media print {
+    display: none;
+  }
+}
+
+.paper {
+  @media screen {
+    padding: 14mm;
+    background: #fafafa;
+    box-shadow: 6px 10px 48px rgba(0, 0, 0, 0.08);
+    box-sizing: border-box;
+    min-height: 297mm;
+  }
+}
