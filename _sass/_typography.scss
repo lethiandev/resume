@@ -1,15 +1,27 @@
 h1 {
   @include block;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 400;
 }
 
 h2 {
   @include block;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 400;
 }
 
+h3 {
+  @include block;
+  border-bottom: dashed 2px #282828;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.title {
+  margin-top: -0.5rem;
+}
+
 .subtitle {
-  margin-top: -1.25rem;
+  margin-top: -0.75rem;
+  margin-bottom: 1rem;
 }
