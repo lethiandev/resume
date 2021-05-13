@@ -1,0 +1,27 @@
+$margin-base: 0.5rem;
+
+@for $n from 1 to 6 {
+  .m-#{$n} {
+    margin: $n * $margin-base !important;
+  }
+  .mx-#{$n} {
+    margin-right: $n * $margin-base !important;
+    margin-left: $n * $margin-base !important;
+  }
+  .my-#{$n} {
+    margin-top: $n * $margin-base !important;
+    margin-bottom: $n * $margin-base !important;
+  }
+  .mt-#{$n} {
+    margin-top: $n * $margin-base !important;
+  }
+  .mr-#{$n} {
+    margin-right: $n * $margin-base !important;
+  }
+  .mb-#{$n} {
+    margin-bottom: $n * $margin-base !important;
+  }
+  .ml-#{$n} {
+    margin-left: $n * $margin-base !important;
+  }
+}
